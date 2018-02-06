@@ -42,7 +42,7 @@ public class Philosopher implements Runnable {
 
     private void eat() throws InterruptedException {
         System.out.println(_name + ": I am eating");
-        wait(100);
+        Thread.sleep(100);
     }
 
     @Override
